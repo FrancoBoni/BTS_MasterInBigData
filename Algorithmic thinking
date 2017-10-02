@@ -2,7 +2,7 @@ def look_year(year):
 #function to get the list of the week day average traffic intensity
     return traffic_data.get(year)
 
-value = look_year("2016")
+value = look_year(2016)
 value
 
 def get_min():
